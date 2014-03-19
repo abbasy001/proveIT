@@ -11,7 +11,7 @@ namespace CommercialQuiz
 	[Activity (Label = "CommercialQuiz", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
-		int count = 1;
+		int count = 2;
 
 		protected override void OnCreate (Bundle bundle)
 		{
