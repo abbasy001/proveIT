@@ -37,7 +37,7 @@ public class DetectorThread extends Thread{
 
 	private LinkedList<Boolean> whistleResultList = new LinkedList<Boolean>();
 	private int numWhistles;
-	private int whistleCheckLength = 3;
+	private int whistleCheckLength = 2;
 	private int whistlePassScore = 3;
 	
 	private OnSignalsDetectedListener onSignalsDetectedListener;
